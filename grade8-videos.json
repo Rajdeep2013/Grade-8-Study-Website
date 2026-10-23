@@ -16,7 +16,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Title matches the chapter name; full-length video"
+        "reason": "Title matches the chapter name; full-length video",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Exercise Solutions",
@@ -29,9 +32,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Solves one Figure It Out page; practice, not a full lesson"
+        "reason": "Solves one Figure It Out page; practice, not a full lesson",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Mathematics",
@@ -50,7 +57,10 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "Title matches the chapter exactly; full-length video"
+        "reason": "Title matches the chapter exactly; full-length video",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -63,9 +73,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Short concept explanation"
+        "reason": "Short concept explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Mathematics",
@@ -84,9 +98,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Covers Proportional Reasoning; title says '1' and 'Chapter 7', while your list says '2'. Confirm numbering."
+        "reason": "Covers Proportional Reasoning; title says '1' and 'Chapter 7', while your list says '2'. Confirm numbering.",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Mathematics",
@@ -105,7 +123,10 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "One-shot video matching the chapter title"
+        "reason": "One-shot video matching the chapter title",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -118,9 +139,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Explains fractals and exercise questions from the chapter"
+        "reason": "Explains fractals and exercise questions from the chapter",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Mathematics",
@@ -139,7 +164,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Short explanation titled for this chapter"
+        "reason": "Short explanation titled for this chapter",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Full Chapter",
@@ -152,9 +180,13 @@
         "language": "English",
         "confidence": "Low",
         "verification": "Metadata only (not watched)",
-        "reason": "Title focuses on mean and median, so it may not cover the whole chapter"
+        "reason": "Title focuses on mean and median, so it may not cover the whole chapter",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Mathematics",
@@ -173,7 +205,10 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "One-shot video matching the chapter title"
+        "reason": "One-shot video matching the chapter title",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Revision",
@@ -186,9 +221,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Revision for exams"
+        "reason": "Revision for exams",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Mathematics",
@@ -207,9 +246,13 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "One-shot video matching the chapter title"
+        "reason": "One-shot video matching the chapter title",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Science",
@@ -228,7 +271,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Explanation of the Curiosity chapter"
+        "reason": "Explanation of the Curiosity chapter",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -241,7 +287,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Titled 'Chapter 10'; your list numbers it 1, so check"
+        "reason": "Titled 'Chapter 10'; your list numbers it 1, so check",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       },
       {
         "type": "Revision",
@@ -254,9 +303,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Quick revision"
+        "reason": "Quick revision",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 3
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Science",
@@ -275,7 +328,10 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "One-shot video matching the chapter title"
+        "reason": "One-shot video matching the chapter title",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -288,9 +344,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Complete-chapter explanation"
+        "reason": "Complete-chapter explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Science",
@@ -309,7 +369,10 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "One-shot video matching the chapter title"
+        "reason": "One-shot video matching the chapter title",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -322,9 +385,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Animated explanation"
+        "reason": "Animated explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Science",
@@ -343,7 +410,10 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "Complete-chapter video matching the title"
+        "reason": "Complete-chapter video matching the title",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Full Chapter",
@@ -356,7 +426,10 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "One-shot video; title says 'Chapter 9', so check numbering"
+        "reason": "One-shot video; title says 'Chapter 9', so check numbering",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       },
       {
         "type": "Revision",
@@ -369,9 +442,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Term-2 one-shot revision"
+        "reason": "Term-2 one-shot revision",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 3
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Science",
@@ -390,7 +467,10 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "Complete-chapter video matching the title"
+        "reason": "Complete-chapter video matching the title",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -403,7 +483,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Animated explanation; title says Chapter 11"
+        "reason": "Animated explanation; title says Chapter 11",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       },
       {
         "type": "Revision",
@@ -416,9 +499,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Short revision"
+        "reason": "Short revision",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 3
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Science",
@@ -437,20 +524,10 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "Complete-chapter video matching the title"
-      },
-      {
-        "type": "Revision",
-        "title": "How Nature Works in Harmony | Chapter 12 One Shot Revision | Class 8 science Curiosity",
-        "channel": "Concept Corridor",
-        "url": "https://www.youtube.com/watch?v=TiHi3aYSl88",
-        "videoId": "TiHi3aYSl88",
-        "thumbnail": "https://img.youtube.com/vi/TiHi3aYSl88/hqdefault.jpg",
-        "duration": "01:18:48",
-        "language": "English",
-        "confidence": "Medium",
-        "verification": "Metadata only (not watched)",
-        "reason": "One-shot revision; title says Chapter 12"
+        "reason": "Complete-chapter video matching the title",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -463,9 +540,29 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Animated explanation"
+        "reason": "Animated explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
+      },
+      {
+        "type": "Revision",
+        "title": "How Nature Works in Harmony | Chapter 12 One Shot Revision | Class 8 science Curiosity",
+        "channel": "Concept Corridor",
+        "url": "https://www.youtube.com/watch?v=TiHi3aYSl88",
+        "videoId": "TiHi3aYSl88",
+        "thumbnail": "https://img.youtube.com/vi/TiHi3aYSl88/hqdefault.jpg",
+        "duration": "01:18:48",
+        "language": "English",
+        "confidence": "Medium",
+        "verification": "Metadata only (not watched)",
+        "reason": "One-shot revision; title says Chapter 12",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 3
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Science",
@@ -484,7 +581,10 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "Complete-chapter video matching the title"
+        "reason": "Complete-chapter video matching the title",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -497,7 +597,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Animated explanation"
+        "reason": "Animated explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       },
       {
         "type": "Revision",
@@ -510,9 +613,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Short revision"
+        "reason": "Short revision",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 3
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Social Science",
@@ -520,19 +627,6 @@
     "chapter": "World Geography: Some Glimpses",
     "textbook": "Grade 8 NCERT Social Science",
     "videos": [
-      {
-        "type": "Explanation",
-        "title": "(हिंदी)Class 8 Geography Ch 1 | World Geography: Some Glimpses | NCERT Social Science",
-        "channel": "NCERT FOUNDATION",
-        "url": "https://www.youtube.com/watch?v=SKuNM5bd9XA",
-        "videoId": "SKuNM5bd9XA",
-        "thumbnail": "https://img.youtube.com/vi/SKuNM5bd9XA/hqdefault.jpg",
-        "duration": "00:10:17",
-        "language": "Hindi",
-        "confidence": "Medium",
-        "verification": "Metadata only (not watched)",
-        "reason": "Hindi explanation matching the chapter"
-      },
       {
         "type": "Full Chapter",
         "title": "World Geography Some Glimpses Lecture 1",
@@ -544,7 +638,26 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Longer lecture on the chapter"
+        "reason": "Longer lecture on the chapter",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
+      },
+      {
+        "type": "Explanation",
+        "title": "(हिंदी)Class 8 Geography Ch 1 | World Geography: Some Glimpses | NCERT Social Science",
+        "channel": "NCERT FOUNDATION",
+        "url": "https://www.youtube.com/watch?v=SKuNM5bd9XA",
+        "videoId": "SKuNM5bd9XA",
+        "thumbnail": "https://img.youtube.com/vi/SKuNM5bd9XA/hqdefault.jpg",
+        "duration": "00:10:17",
+        "language": "Hindi",
+        "confidence": "Medium",
+        "verification": "Metadata only (not watched)",
+        "reason": "Hindi explanation matching the chapter",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       },
       {
         "type": "Explanation",
@@ -557,9 +670,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Short animated explanation"
+        "reason": "Short animated explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 3
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Social Science",
@@ -578,7 +695,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Long video; title shows a date range (1858–1916), so it may cover only part of the chapter"
+        "reason": "Long video; title shows a date range (1858–1916), so it may cover only part of the chapter",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -591,7 +711,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Chapter explainer"
+        "reason": "Chapter explainer",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       },
       {
         "type": "Explanation",
@@ -604,9 +727,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Animated explanation"
+        "reason": "Animated explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 3
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Social Science",
@@ -625,7 +752,10 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "Part 1 of the chapter, matching the title"
+        "reason": "Part 1 of the chapter, matching the title",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Full Chapter",
@@ -638,7 +768,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Part 2 lecture on the chapter"
+        "reason": "Part 2 lecture on the chapter",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       },
       {
         "type": "Explanation",
@@ -651,9 +784,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Chapter explainer"
+        "reason": "Chapter explainer",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 3
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Social Science",
@@ -672,7 +809,10 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "Complete-chapter video matching the title"
+        "reason": "Complete-chapter video matching the title",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -685,9 +825,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Chapter explainer"
+        "reason": "Chapter explainer",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Social Science",
@@ -706,7 +850,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Full lecture on the chapter"
+        "reason": "Full lecture on the chapter",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -719,7 +866,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Chapter explainer"
+        "reason": "Chapter explainer",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       },
       {
         "type": "Explanation",
@@ -732,9 +882,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Animated explanation"
+        "reason": "Animated explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 3
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Social Science",
@@ -753,7 +907,10 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "Chapter explainer matching the title"
+        "reason": "Chapter explainer matching the title",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -766,9 +923,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Animated explanation"
+        "reason": "Animated explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Social Science",
@@ -787,7 +948,10 @@
         "language": "Hindi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Hindi explanation matching the chapter"
+        "reason": "Hindi explanation matching the chapter",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -800,9 +964,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Chapter explainer"
+        "reason": "Chapter explainer",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Social Science",
@@ -821,7 +989,10 @@
         "language": "Hindi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Hindi explanation matching the chapter"
+        "reason": "Hindi explanation matching the chapter",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -834,9 +1005,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Chapter explainer"
+        "reason": "Chapter explainer",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "English",
@@ -855,7 +1030,10 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "Chapter explanation matching the title"
+        "reason": "Chapter explanation matching the title",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -868,9 +1046,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Animated explanation"
+        "reason": "Animated explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "English",
@@ -889,7 +1071,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Explanation of 'Harvest Hymn'; confirm this is the chapter in your textbook"
+        "reason": "Explanation of 'Harvest Hymn'; confirm this is the chapter in your textbook",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -902,9 +1087,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Animated explanation; title says Chapter 11"
+        "reason": "Animated explanation; title says Chapter 11",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "English",
@@ -923,7 +1112,10 @@
         "language": "English",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "Official NCERT reading of the lesson"
+        "reason": "Official NCERT reading of the lesson",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -936,7 +1128,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Full explanation"
+        "reason": "Full explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       },
       {
         "type": "Explanation",
@@ -949,9 +1144,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Animated explanation"
+        "reason": "Animated explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 3
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "English",
@@ -959,19 +1158,6 @@
     "chapter": "Feathered Friends",
     "textbook": "Grade 8 English",
     "videos": [
-      {
-        "type": "Explanation",
-        "title": "Feathered Friend: Story Summary & Explanation | Class 8 English Poorvi | NCERT",
-        "channel": "EduRev Class 6 - 10",
-        "url": "https://www.youtube.com/watch?v=NRkvqltDJlo",
-        "videoId": "NRkvqltDJlo",
-        "thumbnail": "https://img.youtube.com/vi/NRkvqltDJlo/hqdefault.jpg",
-        "duration": "00:05:03",
-        "language": "English",
-        "confidence": "Medium",
-        "verification": "Metadata only (not watched)",
-        "reason": "Summary and explanation"
-      },
       {
         "type": "Full Chapter",
         "title": "Feathered Friend BY Arthur Charles Clarke",
@@ -983,9 +1169,29 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Reading of the story"
+        "reason": "Reading of the story",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
+      },
+      {
+        "type": "Explanation",
+        "title": "Feathered Friend: Story Summary & Explanation | Class 8 English Poorvi | NCERT",
+        "channel": "EduRev Class 6 - 10",
+        "url": "https://www.youtube.com/watch?v=NRkvqltDJlo",
+        "videoId": "NRkvqltDJlo",
+        "thumbnail": "https://img.youtube.com/vi/NRkvqltDJlo/hqdefault.jpg",
+        "duration": "00:05:03",
+        "language": "English",
+        "confidence": "Medium",
+        "verification": "Metadata only (not watched)",
+        "reason": "Summary and explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "English",
@@ -1004,7 +1210,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Poem explanation"
+        "reason": "Poem explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -1017,9 +1226,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Summary and explanation"
+        "reason": "Summary and explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "English",
@@ -1038,7 +1251,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Animated explanation"
+        "reason": "Animated explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -1051,7 +1267,10 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Chapter explanation; title says 5.3, so check numbering"
+        "reason": "Chapter explanation; title says 5.3, so check numbering",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       },
       {
         "type": "Explanation",
@@ -1064,9 +1283,13 @@
         "language": "English",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Animated explanation"
+        "reason": "Animated explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 3
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Hindi",
@@ -1085,7 +1308,10 @@
         "language": "Hindi",
         "confidence": "Low",
         "verification": "Metadata only (not watched)",
-        "reason": "Hindi poem explanation; not confirmed as the Anand Pathmala lesson"
+        "reason": "Hindi poem explanation; not confirmed as the Anand Pathmala lesson",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -1098,9 +1324,13 @@
         "language": "Hindi",
         "confidence": "Low",
         "verification": "Metadata only (not watched)",
-        "reason": "Poem reading; not confirmed as the Anand Pathmala lesson"
+        "reason": "Poem reading; not confirmed as the Anand Pathmala lesson",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Hindi",
@@ -1109,7 +1339,8 @@
     "textbook": "RISE, Anand Hindi Pathmala, Class 8 (Text-cum-Workbook)",
     "videos": [],
     "status": "NOT FOUND",
-    "searchUrl": "https://www.youtube.com/results?search_query=Sarangi+Dhanush+Aur+Himmat+class+8+Hindi"
+    "searchUrl": "https://www.youtube.com/results?search_query=Sarangi+Dhanush+Aur+Himmat+class+8+Hindi",
+    "coverageStatus": "No reliable exact-chapter video identified; YouTube search fallback"
   },
   {
     "subject": "Hindi",
@@ -1128,9 +1359,13 @@
         "language": "Hindi",
         "confidence": "Low",
         "verification": "Metadata only (not watched)",
-        "reason": "Hindi news piece on Mumbai dabbawalas; topic match only, not a lesson explanation"
+        "reason": "Hindi news piece on Mumbai dabbawalas; topic match only, not a lesson explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Hindi",
@@ -1149,7 +1384,10 @@
         "language": "Hindi",
         "confidence": "Low",
         "verification": "Metadata only (not watched)",
-        "reason": "Story version; may not match the textbook lesson"
+        "reason": "Story version; may not match the textbook lesson",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -1162,9 +1400,13 @@
         "language": "Hindi",
         "confidence": "Low",
         "verification": "Metadata only (not watched)",
-        "reason": "Story version; may not match the textbook lesson"
+        "reason": "Story version; may not match the textbook lesson",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Hindi",
@@ -1183,7 +1425,10 @@
         "language": "Hindi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Class 8 Hindi lesson explanation; title says lesson 9"
+        "reason": "Class 8 Hindi lesson explanation; title says lesson 9",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -1196,9 +1441,13 @@
         "language": "Hindi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Explanation of the saint poet for Class 8"
+        "reason": "Explanation of the saint poet for Class 8",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Hindi",
@@ -1217,7 +1466,10 @@
         "language": "Hindi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Chapter summary; channel labels it NCERT, so check against your textbook"
+        "reason": "Chapter summary; channel labels it NCERT, so check against your textbook",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -1230,9 +1482,13 @@
         "language": "Hindi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Chapter explanation; labelled NCERT, so check the textbook"
+        "reason": "Chapter explanation; labelled NCERT, so check the textbook",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Hindi",
@@ -1241,7 +1497,8 @@
     "textbook": "RISE, Anand Hindi Pathmala, Class 8 (Text-cum-Workbook)",
     "videos": [],
     "status": "NOT FOUND",
-    "searchUrl": "https://www.youtube.com/results?search_query=%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A4%BE+%E0%A4%95%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+8+%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80"
+    "searchUrl": "https://www.youtube.com/results?search_query=%E0%A4%AA%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A4%BE+%E0%A4%95%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE+8+%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80",
+    "coverageStatus": "No reliable exact-chapter video identified; YouTube search fallback"
   },
   {
     "subject": "Hindi",
@@ -1250,7 +1507,8 @@
     "textbook": "RISE, Anand Hindi Pathmala, Class 8 (Text-cum-Workbook)",
     "videos": [],
     "status": "NOT FOUND",
-    "searchUrl": "https://www.youtube.com/results?search_query=Chhodo+Kal+Ki+Baatein+class+8+Hindi"
+    "searchUrl": "https://www.youtube.com/results?search_query=Chhodo+Kal+Ki+Baatein+class+8+Hindi",
+    "coverageStatus": "No reliable exact-chapter video identified; YouTube search fallback"
   },
   {
     "subject": "Marathi",
@@ -1269,7 +1527,10 @@
         "language": "Marathi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Chapter explanation; channel labels it CBSE, so confirm it follows the Maharashtra textbook"
+        "reason": "Chapter explanation; channel labels it CBSE, so confirm it follows the Maharashtra textbook",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -1282,9 +1543,13 @@
         "language": "Hindi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Hindi-medium explanation of the Marathi lesson"
+        "reason": "Hindi-medium explanation of the Marathi lesson",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Marathi",
@@ -1303,7 +1568,10 @@
         "language": "Marathi",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "Poem explanation that names the Sulabhbharati textbook"
+        "reason": "Poem explanation that names the Sulabhbharati textbook",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -1316,9 +1584,13 @@
         "language": "Marathi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Meaning (bhavarth) of the poem"
+        "reason": "Meaning (bhavarth) of the poem",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Marathi",
@@ -1337,7 +1609,10 @@
         "language": "Marathi",
         "confidence": "High",
         "verification": "Metadata only (not watched)",
-        "reason": "Names the Maharashtra Board and matches the lesson"
+        "reason": "Names the Maharashtra Board and matches the lesson",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -1350,9 +1625,13 @@
         "language": "Marathi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Longer lesson explanation"
+        "reason": "Longer lesson explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Marathi",
@@ -1360,19 +1639,6 @@
     "chapter": "जीवनगाणी",
     "textbook": "Maharashtra State Board, Class 8, Marathi Sulabhbharati, Second Language",
     "videos": [
-      {
-        "type": "Explanation",
-        "title": "std 8 Marathi जीवन गाणे || easy explanation",
-        "channel": "Swati's classes",
-        "url": "https://www.youtube.com/watch?v=oe3boT4x644",
-        "videoId": "oe3boT4x644",
-        "thumbnail": "https://img.youtube.com/vi/oe3boT4x644/hqdefault.jpg",
-        "duration": "00:08:35",
-        "language": "Marathi",
-        "confidence": "Medium",
-        "verification": "Metadata only (not watched)",
-        "reason": "Easy explanation of the poem"
-      },
       {
         "type": "Full Chapter",
         "title": "8 STD Marathi poem Jivan gane poem lesson no 11 singing",
@@ -1384,9 +1650,29 @@
         "language": "Marathi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Sung version of the poem; not an explanation"
+        "reason": "Sung version of the poem; not an explanation",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
+      },
+      {
+        "type": "Explanation",
+        "title": "std 8 Marathi जीवन गाणे || easy explanation",
+        "channel": "Swati's classes",
+        "url": "https://www.youtube.com/watch?v=oe3boT4x644",
+        "videoId": "oe3boT4x644",
+        "thumbnail": "https://img.youtube.com/vi/oe3boT4x644/hqdefault.jpg",
+        "duration": "00:08:35",
+        "language": "Marathi",
+        "confidence": "Medium",
+        "verification": "Metadata only (not watched)",
+        "reason": "Easy explanation of the poem",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Marathi",
@@ -1405,7 +1691,10 @@
         "language": "Hindi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Hindi-medium explanation; title says lesson 12, so check numbering"
+        "reason": "Hindi-medium explanation; title says lesson 12, so check numbering",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Explanation",
@@ -1418,7 +1707,10 @@
         "language": "Marathi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Marathi lesson explanation; title says chapter 20"
+        "reason": "Marathi lesson explanation; title says chapter 20",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       },
       {
         "type": "Explanation",
@@ -1431,9 +1723,13 @@
         "language": "Marathi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Simple explanation of the lesson"
+        "reason": "Simple explanation of the lesson",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 3
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Marathi",
@@ -1452,7 +1748,10 @@
         "language": "Marathi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Lesson explanation; title says lesson 21"
+        "reason": "Lesson explanation; title says lesson 21",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
       },
       {
         "type": "Exercise Solutions",
@@ -1465,7 +1764,10 @@
         "language": "Marathi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Exercise walkthrough"
+        "reason": "Exercise walkthrough",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       },
       {
         "type": "Explanation",
@@ -1478,9 +1780,13 @@
         "language": "Marathi",
         "confidence": "Low",
         "verification": "Metadata only (not watched)",
-        "reason": "Labelled CBSE and numbered 13, so it may not match the Maharashtra textbook"
+        "reason": "Labelled CBSE and numbered 13, so it may not match the Maharashtra textbook",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 3
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   },
   {
     "subject": "Marathi",
@@ -1488,19 +1794,6 @@
     "chapter": "संतवाणी, भाग २",
     "textbook": "Maharashtra State Board, Class 8, Marathi Sulabhbharati, Second Language",
     "videos": [
-      {
-        "type": "Exercise Solutions",
-        "title": "स्वाध्याय वर्ग आठवा मराठी।स्वाध्याय संतवाणी।Swadhyay class 8 marathi।Swadhyay santavani।Class8।Std 8",
-        "channel": "Digital Swadhyay",
-        "url": "https://www.youtube.com/watch?v=m51Zxwo4FrI",
-        "videoId": "m51Zxwo4FrI",
-        "thumbnail": "https://img.youtube.com/vi/m51Zxwo4FrI/hqdefault.jpg",
-        "duration": "00:10:55",
-        "language": "Marathi",
-        "confidence": "Medium",
-        "verification": "Metadata only (not watched)",
-        "reason": "Exercise walkthrough for Santavani"
-      },
       {
         "type": "Explanation",
         "title": "इयत्ता:आठवी.(बालभारती):संतवाणी--भाग- दुसरा -संत.सावता माळी.",
@@ -1512,7 +1805,26 @@
         "language": "Marathi",
         "confidence": "Medium",
         "verification": "Metadata only (not watched)",
-        "reason": "Explanation of Bhag 2 (Sant Savata Mali)"
+        "reason": "Explanation of Bhag 2 (Sant Savata Mali)",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 1
+      },
+      {
+        "type": "Exercise Solutions",
+        "title": "स्वाध्याय वर्ग आठवा मराठी।स्वाध्याय संतवाणी।Swadhyay class 8 marathi।Swadhyay santavani।Class8।Std 8",
+        "channel": "Digital Swadhyay",
+        "url": "https://www.youtube.com/watch?v=m51Zxwo4FrI",
+        "videoId": "m51Zxwo4FrI",
+        "thumbnail": "https://img.youtube.com/vi/m51Zxwo4FrI/hqdefault.jpg",
+        "duration": "00:10:55",
+        "language": "Marathi",
+        "confidence": "Medium",
+        "verification": "Metadata only (not watched)",
+        "reason": "Exercise walkthrough for Santavani",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 2
       },
       {
         "type": "Explanation",
@@ -1525,8 +1837,12 @@
         "language": "Marathi",
         "confidence": "Low",
         "verification": "Metadata only (not watched)",
-        "reason": "Short lesson video; numbering does not match, so check"
+        "reason": "Short lesson video; numbering does not match, so check",
+        "reviewStatus": "Unverified: supplied metadata only; video playback and textbook alignment not independently confirmed",
+        "rankBasis": "Supplied title match, confidence, and video type; not a quality or accuracy review",
+        "chapterRank": 3
       }
-    ]
+    ],
+    "coverageStatus": "Links and thumbnails supplied; independent verification pending"
   }
 ]
