@@ -1,0 +1,258 @@
+{
+  "version": 1,
+  "sourceNote": "Original questions authored from researched chapter topics; not reproduced textbook exercises.",
+  "chapters": [
+    {
+      "subject": "Maths",
+      "chapter": "Fractions in Disguise",
+      "items": [
+        {
+          "type": "mcq",
+          "question": "What is 3/4 expressed as a percentage?",
+          "options": [
+            "25%",
+            "50%",
+            "75%",
+            "80%"
+          ],
+          "answer": 2,
+          "explanation": "Multiply 3/4 by 100 to obtain 75%."
+        },
+        {
+          "type": "mcq",
+          "question": "A notebook costs ₹200. What is a 15% discount?",
+          "options": [
+            "₹15",
+            "₹20",
+            "₹30",
+            "₹40"
+          ],
+          "answer": 2,
+          "explanation": "15/100 × 200 = ₹30."
+        },
+        {
+          "type": "mcq",
+          "question": "A price rises from ₹80 to ₹100. What is the percentage increase?",
+          "options": [
+            "20%",
+            "25%",
+            "30%",
+            "40%"
+          ],
+          "answer": 1,
+          "explanation": "The increase is ₹20, and 20/80 × 100 = 25%."
+        },
+        {
+          "type": "mcq",
+          "question": "Which fraction equals 120%?",
+          "options": [
+            "6/5",
+            "5/6",
+            "3/5",
+            "1/5"
+          ],
+          "answer": 0,
+          "explanation": "120/100 simplifies to 6/5."
+        },
+        {
+          "type": "blank",
+          "question": "Complete: 0.35 = ____%.",
+          "options": [
+            "3.5",
+            "35",
+            "350",
+            "0.35"
+          ],
+          "answer": 1,
+          "explanation": "Multiply the decimal by 100."
+        },
+        {
+          "type": "blank",
+          "question": "Complete: 20% of 450 = ____.",
+          "options": [
+            "45",
+            "60",
+            "90",
+            "120"
+          ],
+          "answer": 2,
+          "explanation": "20/100 × 450 = 90."
+        },
+        {
+          "type": "blank",
+          "question": "Complete: A ₹500 item sold at a 10% loss has a selling price of ₹____.",
+          "options": [
+            "400",
+            "450",
+            "490",
+            "550"
+          ],
+          "answer": 1,
+          "explanation": "10% of ₹500 is ₹50; subtract it from the cost price."
+        },
+        {
+          "type": "mcq",
+          "question": "Which is greater?",
+          "options": [
+            "60% of 50",
+            "25% of 100",
+            "Both are equal",
+            "Neither can be found"
+          ],
+          "answer": 0,
+          "explanation": "60% of 50 is 30, whereas 25% of 100 is 25."
+        },
+        {
+          "type": "mcq",
+          "question": "An item priced ₹100 gets two successive 10% discounts. Final price?",
+          "options": [
+            "₹80",
+            "₹81",
+            "₹90",
+            "₹82"
+          ],
+          "answer": 1,
+          "explanation": "₹100 becomes ₹90, then ₹81 after the second discount."
+        },
+        {
+          "type": "blank",
+          "question": "Complete: 1/8 = ____%.",
+          "options": [
+            "8",
+            "10",
+            "12.5",
+            "15"
+          ],
+          "answer": 2,
+          "explanation": "1 ÷ 8 × 100 = 12.5%."
+        }
+      ]
+    },
+    {
+      "subject": "Science",
+      "chapter": "Light: Mirrors and Lenses",
+      "items": [
+        {
+          "type": "mcq",
+          "question": "Which mirror is used for a wide field of view in vehicle rear-view mirrors?",
+          "options": [
+            "Plane mirror",
+            "Concave mirror",
+            "Convex mirror",
+            "Opaque mirror"
+          ],
+          "answer": 2,
+          "explanation": "A convex mirror provides a wider field of view."
+        },
+        {
+          "type": "mcq",
+          "question": "What happens to light when it passes obliquely from air into water?",
+          "options": [
+            "It always stops",
+            "It refracts",
+            "It becomes sound",
+            "It cannot enter"
+          ],
+          "answer": 1,
+          "explanation": "Light changes direction when its speed changes across media."
+        },
+        {
+          "type": "mcq",
+          "question": "Which lens is thicker at its centre than at its edges?",
+          "options": [
+            "Concave lens",
+            "Convex lens",
+            "Plane mirror",
+            "Prism"
+          ],
+          "answer": 1,
+          "explanation": "A convex lens bulges outward and is thicker at its centre."
+        },
+        {
+          "type": "blank",
+          "question": "Complete: The bouncing back of light from a surface is called ____.",
+          "options": [
+            "Refraction",
+            "Reflection",
+            "Dispersion",
+            "Absorption"
+          ],
+          "answer": 1,
+          "explanation": "Reflection describes light returning from a surface."
+        },
+        {
+          "type": "blank",
+          "question": "Complete: A plane mirror usually forms an ____ image.",
+          "options": [
+            "inverted",
+            "virtual",
+            "enlarged",
+            "real"
+          ],
+          "answer": 1,
+          "explanation": "The reflected rays only appear to meet behind the mirror."
+        },
+        {
+          "type": "mcq",
+          "question": "A dentist may use which mirror to obtain a magnified upright image of a nearby tooth?",
+          "options": [
+            "Convex",
+            "Concave",
+            "Plane",
+            "Two-way"
+          ],
+          "answer": 1,
+          "explanation": "A concave mirror can produce an enlarged upright image for a close object."
+        },
+        {
+          "type": "mcq",
+          "question": "Which device commonly uses a convex lens to magnify nearby print?",
+          "options": [
+            "Magnifying glass",
+            "Plane mirror",
+            "Periscope mirror",
+            "Opaque screen"
+          ],
+          "answer": 0,
+          "explanation": "A magnifying glass uses a converging convex lens."
+        },
+        {
+          "type": "blank",
+          "question": "Complete: The normal is a line ____ to the reflecting surface at the point of incidence.",
+          "options": [
+            "parallel",
+            "perpendicular",
+            "curved",
+            "tangent"
+          ],
+          "answer": 1,
+          "explanation": "The normal meets the surface at a right angle."
+        },
+        {
+          "type": "mcq",
+          "question": "For reflection from a plane mirror, the angle of incidence is ____ the angle of reflection.",
+          "options": [
+            "twice",
+            "half",
+            "equal to",
+            "unrelated to"
+          ],
+          "answer": 2,
+          "explanation": "The law of reflection states the two angles are equal."
+        },
+        {
+          "type": "mcq",
+          "question": "Why can a pencil look bent in a glass of water?",
+          "options": [
+            "Reflection only",
+            "Refraction of light",
+            "Magnetism",
+            "Evaporation"
+          ],
+          "answer": 1,
+          "explanation": "Light refracts at the water-air boundary."
+        }
+      ]
+    }
+  ]
+}
