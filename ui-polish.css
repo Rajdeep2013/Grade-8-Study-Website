@@ -1,0 +1,72 @@
+/* Unified design layer for the Grade 8 hub and Notes & Files Study Desk. */
+:root{
+  color-scheme:dark;
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  color:#eef2f8;
+  background:#0a0d14;
+  --surface-0:#0a0d14;
+  --surface-1:#10151f;
+  --surface-2:#151c29;
+  --surface-3:#1a2332;
+  --line:rgba(148,163,184,.16);
+  --line-strong:rgba(148,163,184,.25);
+  --ink:#eef2f8;
+  --muted:#9ba8ba;
+  --accent:#6c9cff;
+  --accent-soft:rgba(108,156,255,.14);
+  --radius-card:20px;
+  --shadow-soft:0 18px 48px rgba(0,0,0,.22);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{min-height:100vh;margin:0;color:var(--ink);background:radial-gradient(ellipse at 16% -12%,rgba(53,83,142,.27),transparent 42%),linear-gradient(180deg,#0b1019 0%,#090c12 100%)}
+.wrap{max-width:1180px;padding:28px 26px 34px}
+.wrap>header{position:relative;display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 -26px;padding:12px 26px 18px;border-bottom:1px solid var(--line);background:rgba(10,13,20,.78);backdrop-filter:blur(18px)}
+.brand{display:flex;align-items:center;gap:10px;margin-right:auto;color:#f5f7fb;font-size:13px;letter-spacing:.1em}
+.brand-mark{display:grid;width:38px;height:38px;place-items:center;border:1px solid rgba(108,156,255,.34);border-radius:13px;background:linear-gradient(145deg,rgba(108,156,255,.24),rgba(108,156,255,.06));color:#a9c6ff;font-size:17px;letter-spacing:0;font-weight:850}
+.brand-copy{display:grid;gap:3px}.brand-copy strong{font-size:12px;letter-spacing:.14em}.brand-copy small{color:var(--muted);font-size:11px;letter-spacing:.01em;font-weight:500}
+.pill{padding:8px 11px;border:1px solid var(--line);border-radius:99px;background:rgba(21,28,41,.7);color:#b8c4d4;font-size:12px;white-space:nowrap}
+.btn{display:inline-flex;min-height:42px;align-items:center;justify-content:center;gap:8px;padding:10px 14px;border:1px solid var(--line-strong);border-radius:12px;background:rgba(21,28,41,.82);color:#e8edf6;font-size:13px;line-height:1.1;font-weight:650;transition:background .18s ease,border-color .18s ease,transform .18s ease,box-shadow .18s ease}
+.btn:hover{transform:translateY(-1px);border-color:rgba(108,156,255,.55);background:#1a2638;box-shadow:0 8px 22px rgba(0,0,0,.18)}.btn.primary{border-color:#5d8ff1;background:#477ee5;color:#fff}.btn.primary:hover{background:#5a8ff1}.btn:focus-visible,.card:focus-visible,.chapter:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid rgba(116,164,255,.72);outline-offset:3px}
+h1{margin:30px 0 10px;color:#f5f7fb;font-size:clamp(32px,4.8vw,48px);line-height:1.08;letter-spacing:-.045em}h2,h3{color:#f0f3f8;letter-spacing:-.025em}p{color:var(--muted);line-height:1.65}
+#home h1{margin-top:40px}#home>p{max-width:620px;margin:0;font-size:16px}
+.grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,245px),1fr));gap:16px;margin-top:28px}
+.card{position:relative;border:1px solid var(--line);border-radius:var(--radius-card);background:linear-gradient(145deg,rgba(23,31,45,.96),rgba(16,21,31,.96));box-shadow:0 8px 24px rgba(0,0,0,.12);transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease}
+.card:hover{transform:translateY(-3px);border-color:rgba(108,156,255,.38);box-shadow:var(--shadow-soft)}
+.art{width:58px;height:58px;margin:18px 18px 0;border:1px solid rgba(150,175,220,.16);border-radius:17px;background:linear-gradient(145deg,rgba(108,156,255,.2),rgba(44,61,89,.32));font-size:28px;box-shadow:inset 0 1px rgba(255,255,255,.05)}
+.card:nth-child(2n) .art{background:linear-gradient(145deg,rgba(88,124,180,.24),rgba(44,61,89,.28))}.card:nth-child(3n) .art{background:linear-gradient(145deg,rgba(95,146,158,.2),rgba(44,61,89,.28))}
+.pad{padding:15px 19px 20px}.pad h2{margin:0 0 8px;font-size:19px}.small{color:#9eacbf;font-size:13px;line-height:1.5}
+.chapter{gap:16px;margin:10px 0;padding:13px;border:1px solid var(--line);border-radius:16px;background:rgba(19,27,40,.84);transition:background .18s ease,border-color .18s ease,transform .18s ease}
+.chapter:hover{transform:translateY(-1px);border-color:rgba(108,156,255,.38);background:#192436}.thumb{width:64px;min-width:64px;height:64px;border:1px solid rgba(148,163,184,.13);border-radius:15px;background:linear-gradient(145deg,#263956,#18263a);font-size:25px}.chapter strong{font-size:15px;line-height:1.4}.chapter .small{display:inline-block;margin-top:4px}
+input[type=search],.auth-panel input,.practice-question textarea,.exam-controls select{min-height:46px;padding:12px 14px;border:1px solid var(--line-strong);border-radius:12px;background:#111824;color:#f1f4f8;font:inherit;box-shadow:inset 0 1px rgba(255,255,255,.025)}input[type=search]::placeholder,.auth-panel input::placeholder,.practice-question textarea::placeholder{color:#718096}
+.lesson{max-width:920px}.lesson h1{margin-top:26px}.video-card,.practice-panel,.auth-panel,.video-empty{border:1px solid var(--line);border-radius:18px;background:linear-gradient(145deg,rgba(21,29,42,.96),rgba(15,21,31,.98));box-shadow:0 10px 32px rgba(0,0,0,.13)}
+.video-card{overflow:hidden}.video-card img{background:#131c2a}.video-info{padding:18px}.video-info h3{font-size:16px}.video-label{color:#abc6ff}.video-warning{color:#f4c88c}.video-thumb-fallback,.video-search-thumbnail{background:linear-gradient(135deg,#263b5c,#111a28);color:#dce8fb}
+.practice-panel{padding:22px}.practice-question{border:1px solid var(--line);border-radius:14px;background:rgba(10,14,21,.44)}.practice-option{border-color:var(--line-strong);background:rgba(255,255,255,.02)}.practice-option:hover{border-color:rgba(108,156,255,.46)}.practice-result{background:#1a2c42}.practice-correct{border-color:#379b77}.practice-wrong{border-color:#bd705f}
+.note{border:1px solid rgba(108,156,255,.24);border-radius:14px;background:rgba(108,156,255,.08);color:#c7d8f2}
+label{color:#cbd5e1}footer{padding-top:20px;border-top:1px solid var(--line);color:#738197}
+/* Match the Study Desk to the same quiet dark surfaces and blue focus color. */
+#studyWorkspace{--ws-accent:#6c9cff;--ws-surface:#10151f;--ws-card:#151c29;--ws-border:rgba(148,163,184,.16);color:#eef2f8}
+#studyWorkspace .ws-top{padding:24px 0 18px;border-bottom-color:var(--line)}#studyWorkspace .ws-top h1{font-size:clamp(29px,4vw,38px);letter-spacing:-.04em}#studyWorkspace .ws-top p{margin-top:8px}
+#studyWorkspace .ws-card{border-color:var(--line);border-radius:18px;background:linear-gradient(145deg,rgba(21,28,41,.96),rgba(16,21,31,.96));box-shadow:0 10px 28px rgba(0,0,0,.14)}
+#studyWorkspace .ws-btn{border-color:var(--line-strong);border-radius:11px;background:#171f2d;color:#e9eef6;transition:background .18s ease,border-color .18s ease,transform .18s ease}
+#studyWorkspace .ws-btn:hover{transform:translateY(-1px);border-color:rgba(108,156,255,.52);background:#1b293b;box-shadow:none}
+#studyWorkspace .ws-btn.primary{border-color:#5d8ff1;background:#477ee5;color:white}#studyWorkspace .ws-btn.danger{color:#ffb3bd}
+#studyWorkspace .ws-tabs .ws-btn[aria-current=true]{border-color:#5d8ff1;background:#477ee5;color:white}
+#studyWorkspace .ws-stat,#studyWorkspace .ws-item{border-color:var(--line);border-radius:13px;background:rgba(10,14,21,.42);color:#eef2f8}
+#studyWorkspace .ws-item:hover{border-color:rgba(108,156,255,.48)}#studyWorkspace .ws-search,#studyWorkspace .ws-field input,#studyWorkspace .ws-field textarea,#studyWorkspace .ws-field select{border-color:var(--line-strong);border-radius:11px;background:#0f151f;color:#eef2f8}
+#studyWorkspace .ws-muted{color:#9ba8ba;opacity:1}#studyWorkspace .ws-chip{border-color:var(--line);color:#b7c9e7}
+#studyWorkspace.ws-light{--ws-surface:#f6f8fc;--ws-card:#fff;--ws-border:#d8dfeb;color:#1d293b}
+#studyWorkspace.ws-light .ws-card{background:#fff;color:#1d293b}#studyWorkspace.ws-light .ws-item,#studyWorkspace.ws-light .ws-stat{background:#f8faff;color:#1d293b}#studyWorkspace.ws-light .ws-muted{color:#64748b}
+/* The name-entry page uses the same type, surfaces, and controls as the hub. */
+.panel{width:min(100%,480px);padding:clamp(24px,6vw,42px);border:1px solid var(--line-strong);border-radius:24px;background:linear-gradient(150deg,rgba(21,29,42,.97),rgba(13,18,27,.97));box-shadow:0 28px 80px rgba(0,0,0,.38);backdrop-filter:blur(24px)}
+.panel .brand{display:flex;align-items:center;gap:10px;margin:0;color:#f4f7fb;font-size:12px;letter-spacing:.1em}
+.panel .brand-mark{display:grid;width:38px;height:38px;place-items:center;border:1px solid rgba(108,156,255,.34);border-radius:13px;background:linear-gradient(145deg,rgba(108,156,255,.24),rgba(108,156,255,.06));color:#a9c6ff;font-size:17px;font-weight:850;letter-spacing:0}
+.panel .brand-copy{display:grid;gap:3px}.panel .brand-copy strong{font-size:12px;letter-spacing:.14em}.panel .brand-copy small{color:var(--muted);font-size:11px;letter-spacing:.01em;font-weight:500}
+.panel .icon{display:grid;width:58px;height:58px;place-items:center;margin:25px 0 18px;border:1px solid var(--line);border-radius:17px;background:rgba(108,156,255,.1);font-size:27px}
+.panel h1{margin:0 0 10px;font-size:clamp(32px,6vw,42px)}.panel>p{margin:0 0 8px;max-width:390px}.panel label{margin:24px 0 8px;color:#d6deea;font-size:13px}
+.panel input{min-height:48px;padding:13px 14px;border:1px solid var(--line-strong);border-radius:12px;background:#0e141e;color:#f4f7fb;font-size:15px}
+.panel button{min-height:48px;width:100%;margin-top:13px;padding:12px 16px;border:1px solid #5d8ff1;border-radius:12px;background:#477ee5;color:#fff;font-size:14px;font-weight:700;transition:background .18s ease,transform .18s ease}
+.panel button:hover{transform:translateY(-1px);background:#5a8ff1}.panel .error{min-height:18px;margin:8px 0 0;color:#ffabb4;font-size:13px}.panel .foot{margin-top:20px;padding-top:15px;border-top:1px solid var(--line);text-align:left;color:#8997aa;font-size:12px;line-height:1.6}
+@media(max-width:680px){.wrap{padding:16px 15px 28px}.wrap>header{margin:0 -15px;padding:10px 15px 14px;gap:8px}.brand{width:100%;margin-right:0}.brand-mark{width:35px;height:35px}.wrap>header .pill{font-size:11px;padding:7px 9px}.wrap>header .btn{flex:1;min-width:0;padding:10px 9px;font-size:12px}.wrap>header .btn:last-child{flex:0 0 auto}.wrap h1{margin-top:26px}.grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px}.card{border-radius:17px}.art{width:50px;height:50px;margin:14px 14px 0;border-radius:15px;font-size:25px}.pad{padding:13px 15px 17px}.thumb{width:54px;min-width:54px;height:58px}.chapter{gap:11px;padding:11px}.practice-panel{padding:16px}#studyWorkspace .ws-top{gap:12px}#studyWorkspace .ws-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;gap:7px}#studyWorkspace .ws-tabs .ws-btn{padding:9px 5px;font-size:12px}#studyWorkspace .ws-top .ws-tools{display:grid;grid-template-columns:1fr 1fr;width:100%}#studyWorkspace .ws-top .ws-tools .ws-btn:first-child{grid-column:1/-1}}
+@media(max-width:420px){.grid{grid-template-columns:1fr}.wrap>header{display:grid;grid-template-columns:1fr auto}.brand{grid-column:1/-1}.wrap>header .pill{justify-self:start}.wrap>header .btn{width:100%}.wrap>header .btn:last-child{width:auto}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
