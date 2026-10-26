@@ -239,3 +239,6 @@ label{color:#cbd5e1}footer{padding-top:20px;border-top:1px solid var(--line);col
 .hero-book-pages::after{right:2px;border-radius:3px 11px 8px 3px;transform:perspective(420px) rotateY(-8deg);transform-origin:left center}
 .hero-book-spine{top:7px;bottom:7px;left:50%;width:7px;border:0;border-radius:50%;background:linear-gradient(90deg,#385e8e,#102440,#385e8e);transform:translateX(-50%) translateZ(13px)}
 .hero-book-mark{top:49px;left:36px;width:34px;height:34px;border-color:rgba(56,89,133,.24);border-radius:11px;background:rgba(255,255,255,.5);color:#335a8b;font-size:17px;transform:translateZ(14px)}
+
+/* Use the supplied Visionary artwork as the compact brand mark. */
+.brand-mark,.panel .brand-mark{background-image:url("assets/visionary-study-hub-logo.png");background-size:148px 148px;background-position:center 40%;background-repeat:no-repeat;overflow:hidden}
