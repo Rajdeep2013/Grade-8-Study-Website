@@ -74,7 +74,7 @@ function openView(view){
   if(typeof window.show==='function')window.show('settingsPanel');
   setCurrent('settings');
  }else if(view==='notes'){
-  if(typeof window.show==='function')window.show('home');
+  $('settingsPanel')?.classList.add('hidden');
   if(window.StudyWorkspace?.open)window.StudyWorkspace.open();
   setCurrent('notes');
  }
