@@ -59,6 +59,7 @@ function setCurrent(which){
   else button.removeAttribute('aria-current');
  });
 }
+window.studySetCurrentNav=setCurrent;
 function openView(view){
  closeSidebar();
  const workspace=$('studyWorkspace');
@@ -67,7 +68,7 @@ function openView(view){
   if(typeof window.goHome==='function')window.goHome();
   else if(typeof window.show==='function')window.show('home');
   setCurrent(view==='subjects'?'subjects':'home');
-  if(view==='subjects')requestAnimationFrame(()=>{$('subjects')?.scrollIntoView({behavior:prefs.motion?'instant':'smooth',block:'start'})});
+  if(view==='subjects')requestAnimationFrame(()=>{$('subjects')?.scrollIntoView({behavior:prefs.motion?'auto':'smooth',block:'start'})});
  }else if(view==='settings'){
   if(workspace)workspace.classList.add('hidden');
   if(typeof window.show==='function')window.show('settingsPanel');
@@ -94,6 +95,19 @@ $('sidebarToggle')?.addEventListener('click',()=>{
 $('studyOverlay')?.addEventListener('click',closeSidebar);
 document.addEventListener('keydown',event=>{if(event.key==='Escape')closeSidebar()});
 const sideProfile=$('sideProfileName');
-if(sideProfile)sideProfile.textContent=profile.startsWith('google:')?'Google account':'Local student profile';
+if(sideProfile)sideProfile.textContent=profile.startsWith('google:')?'Google account':profile;
+if(profile.startsWith('google:')){
+  import('https://esm.sh/@supabase/supabase-js@2.49.10').then(async sdk=>{
+    const client=sdk.createClient('https://hnsjeoauzresxkbfrodu.supabase.co','sb_publishable_0D0se4u5F0n6z9Xgx3sUQg_o96wTS58');
+    const {data,error}=await client.auth.getSession();
+    if(error||!data.session?.user||'google:'+data.session.user.id!==profile)return;
+    const user=data.session.user, metadata=user.user_metadata||{};
+    const name=String(metadata.full_name||metadata.name||metadata.given_name||user.email?.split('@')[0]||'Learner').trim().slice(0,60);
+    if(localStorage.getItem('v8profile')!==profile)return;
+    if(sideProfile)sideProfile.textContent=name;
+    const headerName=$('profileName');
+    if(headerName)headerName.textContent='👤 '+name;
+  }).catch(()=>{/* Keep the neutral Google account label if offline. */});
+}
 window.addEventListener('storage',event=>{if(event.key===storage){try{const next=JSON.parse(event.newValue||'null');if(next)prefs={...defaults,...next};else prefs={...defaults};if(!presets[prefs.accent])prefs.accent='blue';apply()}catch{}}});
 })();
