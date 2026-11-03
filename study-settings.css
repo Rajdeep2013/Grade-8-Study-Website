@@ -78,8 +78,8 @@ html[data-study-theme="light"] .video-disclosure strong{color:#1d3559}
 html[data-study-theme="light"] .video-empty{background:#fff!important}
 @media(max-width:940px){
  body>.wrap{width:100%;margin-left:0}
- .study-sidebar{transform:translateX(-101%);transition:transform .2s ease;box-shadow:14px 0 32px #0004}
- body.study-sidebar-open .study-sidebar{transform:translateX(0)}
+ .study-sidebar{visibility:hidden;transform:translateX(-101%);transition:transform .2s ease,visibility .2s ease;box-shadow:14px 0 32px #0004}
+ body.study-sidebar-open .study-sidebar{visibility:visible;transform:translateX(0)}
  .study-menu-button{display:inline-flex!important}
  body.study-sidebar-open .study-overlay{display:block;position:fixed;inset:0;z-index:55;background:#0008;border:0}
 }
